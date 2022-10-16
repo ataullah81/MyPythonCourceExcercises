@@ -15,5 +15,5 @@ def find_square(num):
     return square
 
 
-number = int(input("Enter any number for square: "))
+number = float(input("Enter any number for square: "))
 print("The square of {} is:".format(number), find_square(number))
