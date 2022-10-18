@@ -20,6 +20,7 @@ Output:
 3. counter >= end
 4. counter = start -= 1 
 """
+"""
 lst = [1, 2, 3, 4, 5, 6]
 
 start = len(lst) - 1 # 1
@@ -28,3 +29,11 @@ end = 0 # 2
 while start >= end: # 3
     print(lst[start]) # 4
     start -= 1 # 5
+"""
+lst = [1, 2, 3, 4, 5, 6]
+
+end = len(lst) - 1
+start = 0
+while start <= end:
+    print(lst[start])
+    start += 1
