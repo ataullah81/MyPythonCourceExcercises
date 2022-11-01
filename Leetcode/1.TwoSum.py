@@ -1,16 +1,16 @@
-nums = map(int, input().split())
-number =list(nums)
-print(type(number))
+nums = list(map(int, input().split()))
+
+#print(type(nums))
 target = int(input())
 isBreak = False
-print(number)
-for i in range(len(number)-1):
+print(nums)
+for i in range(len(nums)-1):
     if isBreak:
         break
     #print("this is i",i)
-    for j in range(1, len(number)):
+    for j in range(1, len(nums)):
         #print("This is j",j)
-        if int(number[i] + number[j]) == target:
+        if int(nums[i] + nums[j]) == target:
             print([i,j])
             isBreak = True
             break
