@@ -14,5 +14,5 @@ while isContinue:
             print("Unique value:", single_value, sep='\n')
         elif inp == 'no':
             break
-    except Exception as ex:
+    except Exception:
         print("Enter valid numbers.")

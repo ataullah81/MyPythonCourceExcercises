@@ -18,6 +18,7 @@ if a == b == c:
     print("TRIANGULO EQUILATERO")
 elif a == b or b == c or c ==a:
     print("TRIANGULO ISOSCELES")
+
     #start += 1
 
 
